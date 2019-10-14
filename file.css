@@ -1,0 +1,132 @@
+/*body
+{
+	background-image: url("ArrierePlan.jpg");
+	background-repeat: no-repeat;
+}*/
+
+header 
+{
+ 	background-image: url("ArrierePlan.jpg");
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	text-align: center;
+}
+
+nav
+{
+	text-align: center;
+}
+
+body
+{
+	background-image: url(fondGris.jpg);
+	background-repeat: no-repeat;
+}
+
+#propos ul 
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+
+#propos li 
+{
+	/*float:center;*/
+	position: absolute;
+  	left: 38%;
+  	margin-left: -50px;
+	margin:auto;
+	padding:0;
+ 	background-color:#EEB800;
+}
+
+#propos li a 
+{
+ 	display:block;
+ 	width:310px;
+ 	color:white;
+ 	text-decoration:none;
+ 	padding:5px;
+ 	border-radius: 5px 10px 0 5px;
+}
+
+#propos li a:hover 
+{
+ 	color:#000000;
+}
+
+#propos ul li ul 
+{
+	display:none;
+}
+
+#propos ul li:hover ul 
+{
+	display:block;
+}
+
+#propos li:hover ul li 
+{
+	float:none;
+}
+
+#propos li ul 
+{
+	position:absolute;
+}
+
+.myButton 
+{
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:4px;
+	border:2px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:9px 76px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #86ae47;
+}
+
+.myButton2
+{
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:4px;
+	border:2px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:9px 99px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #86ae47;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
