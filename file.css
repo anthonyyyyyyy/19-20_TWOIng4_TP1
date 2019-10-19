@@ -1,15 +1,27 @@
-/*body
-{
-	background-image: url("ArrierePlan.jpg");
-	background-repeat: no-repeat;
-}*/
-
-header 
+header
 {
  	background-image: url("ArrierePlan.jpg");
  	background-repeat: no-repeat;
  	display: block;
  	text-align: center;
+}
+
+.classTOT, .classALL, .classFG, .classLO
+{
+	text-align: center;
+	color: #FFA40F;
+}
+.classTOTtxt, .classALLtxt, .classFGtxt, .classLOtxt
+{
+	text-align: center;
+	color: black;
+	font: 15px 'Verdana';
+}
+
+.textECE, .textaik
+{	
+	background-image: none;
+	float: left;
 }
 
 nav
@@ -20,6 +32,18 @@ nav
 body
 {
 	background-image: url(fondGris.jpg);
+	background-repeat: no-repeat;
+}
+
+.bodyexp
+{
+	background-image: url(fondo.jpg);
+	background-repeat: no-repeat;
+}
+
+.bodyContact
+{
+	background-image: url(fond-contact.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -129,4 +153,79 @@ body
 .myButton2:active {
 	position:relative;
 	top:1px;
+}
+
+.formulaire
+{
+	margin-left :40%;
+	margin-top: 20%; 
+}
+
+input, textarea 
+{
+ background-color:#FFF3F3;
+ display: inline-block;
+ padding:5px;
+ margin-left: 30px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+ td
+ {
+ 	padding: 5px;
+ }
+
+ input[type=submit] 
+ {
+ width:100px;
+ margin-left:140px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+.classECE
+{
+	float: left;
+}
+
+.classCP
+{
+	position: absolute;
+	margin-top: 260px;
+	float: left;
+}
+
+.textECE
+{
+	margin-left: 40%;
+}
+
+.textaik
+{
+	margin-left: 20%;
+}
+
+.zoom div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom div:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.zoomCP div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoomCP div:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
